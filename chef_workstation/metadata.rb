@@ -17,3 +17,7 @@ chef_version '>= 15.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/chef_workstation'
+
+depends 'git', '~> 0.1' # '>= 0.1.0', '>= 1.0'
+depends 'atom', '~> 0.1'
+depends 'chefws', '~> 0.1'
