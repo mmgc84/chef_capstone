@@ -1,0 +1,25 @@
+chef_workstation/.vagrant
+chef_workstation/*~
+chef_workstation/*#
+chef_workstation/.#*
+chef_workstation/\#*#
+chef_workstation/.*.sw[a-z]
+chef_workstation/*.un~
+
+# Bundler
+chef_workstation/Gemfile.lock
+chef_workstation/gems.locked
+chef_workstation/bin/*
+chef_workstation/.bundle/*
+
+# test kitchen
+chef_workstation/.kitchen/
+chef_workstation/kitchen.local.yml
+
+# Chef Infra
+chef_workstation/Berksfile.lock
+chef_workstation/.zero-knife.rb
+chef_workstation/Policyfile.lock.json
+
+.idea/
+
