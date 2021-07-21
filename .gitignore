@@ -21,5 +21,86 @@ chef_workstation/Berksfile.lock
 chef_workstation/.zero-knife.rb
 chef_workstation/Policyfile.lock.json
 
-.idea/
+chef_workstation/.idea/
+
+###
+
+atom/.vagrant
+atom/*~
+atom/*#
+atom/.#*
+atom/\#*#
+atom/.*.sw[a-z]
+atom/*.un~
+
+# Bundler
+atom/Gemfile.lock
+atom/gems.locked
+atom/bin/*
+atom/.bundle/*
+
+# test kitchen
+atom/.kitchen/
+atom/kitchen.local.yml
+
+# Chef Infra
+atom/Berksfile.lock
+atom/.zero-knife.rb
+atom/Policyfile.lock.json
+
+atom/.idea/
+
+###
+
+chefws/.vagrant
+chefws/*~
+chefws/*#
+chefws/.#*
+chefws/\#*#
+chefws/.*.sw[a-z]
+chefws/*.un~
+
+# Bundler
+chefws/Gemfile.lock
+chefws/gems.locked
+chefws/bin/*
+chefws/.bundle/*
+
+# test kitchen
+chefws/.kitchen/
+chefws/kitchen.local.yml
+
+# Chef Infra
+chefws/Berksfile.lock
+chefws/.zero-knife.rb
+chefws/Policyfile.lock.json
+
+chefws/.idea/
+
+###
+
+git/.vagrant
+git/*~
+git/*#
+git/.#*
+git/\#*#
+git/.*.sw[a-z]
+git/*.un~
+
+# Bundler
+git/Gemfile.lock
+git/gems.locked
+git/bin/*
+git/.bundle/*
+
+# test kitchen
+git/.kitchen/
+git/kitchen.local.yml
+
+# Chef Infra
+git/Berksfile.lock
+git/.zero-knife.rb
+git/Policyfile.lock.json
+
+git/.idea/
 
