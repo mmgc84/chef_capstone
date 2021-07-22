@@ -1,0 +1,9 @@
+name: chef_ws
+title: Chef Development Workstation Compliance Profile
+mantainer: Marcelo Gutierrez
+copyright_email: mmg84@gmail.com
+license: Apache-2.0
+summary: Minimun required configuration for Chef Development
+version: 1.0.0
+supports:
+    - os-family: linux

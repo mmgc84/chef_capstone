@@ -1,3 +1,30 @@
+chefws_cp/.vagrant
+chefws_cp/*~
+chefws_cp/*#
+chefws_cp/.#*
+chefws_cp/\#*#
+chefws_cp/.*.sw[a-z]
+chefws_cp/*.un~
+
+# Bundler
+chefws_cp/Gemfile.lock
+chefws_cp/gems.locked
+chefws_cp/bin/*
+chefws_cp/.bundle/*
+
+# test kitchen
+chefws_cp/.kitchen/
+chefws_cp/kitchen.local.yml
+
+# Chef Infra
+chefws_cp/Berksfile.lock
+chefws_cp/.zero-knife.rb
+chefws_cp/Policyfile.lock.json
+
+chefws_cp/.idea/
+
+###
+
 chef_workstation/.vagrant
 chef_workstation/*~
 chef_workstation/*#
